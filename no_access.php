@@ -1,0 +1,2 @@
+<?php session_start(); include "includes/model.php"; requireLogin(); ?>
+<!DOCTYPE html><html><head><title>No Access</title><link rel="stylesheet" href="assets/style.css"></head><body><div class="layout"><?php include "includes/sidebar.php"; ?><main class="main"><div class="card"><h1>Access Denied</h1><p>Your account does not have permission to access this function. Contact the system administrator.</p><br><a class="btn" href="dashboard.php">Back to Dashboard</a></div></main></div></body></html>
